@@ -1,0 +1,35 @@
+pip install [package]
+
+pip install --upgrade pip
+
+pip list
+
+pip install requests==2.9.0
+pip install requests==2.9.*
+pip install requests~=2.9.*
+
+pip install requests==2.*
+
+pipenv install
+pipenv install [package]
+pipenv shell
+& ~/.virtualenvs/[project]/Scripts/activate.ps1
+***chose from left down interpreter dropdown list
+
+pipenv run python app.py
+
+pipenv graph
+
+pipenv update --outdated
+***change dependencies in pipfile
+pipenv update
+pipenv update requests
+
+
+py -m pydoc math
+py -m pydoc -w math
+*** Invoke-Item math.html or 
+*** start chrome file:///C:/Users/kob87/math.html
+
+
+py -m pydoc -p 65000

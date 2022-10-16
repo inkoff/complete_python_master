@@ -1,0 +1,1 @@
+CREATE TABLE `movies`(`id` INTEGER, `title` TEXT, PRIMARY KEY(`id`));
